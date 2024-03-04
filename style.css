@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: #202124;
+  color: #bdc1c6;
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+.headerdiv {
+  height: 60px;
+  width: 100%;
+  position: relative;
+  color: #bdc1c6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: fixed;
+  display: block;
+  left: 85%;
+  top: 2%;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 10px;
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.headerdiv img {
+  position: relative;
+  top: 8px;
+}
+
+.padding {
+  padding: 0px 15px;
+}
+.account {
+  border-radius: 25px;
+}
+
+.centerdiv {
+  height: 650px;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.search-wrapper {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  position: relative;
+  margin-top: 30px;
+}
+
+input {
+  width: 580px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 45px;
+  border: 1px solid #d3d3d3;
+  background: transparent;
+  color: white;
+}
+
+input:hover {
+  box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.5);
+}
+
+input:focus {
+  outline: none;
+}
+
+.search {
+  width: 15px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.mic {
+  width: 15px;
+  position: absolute;
+  top: 12px;
+  left: 540px;
+}
+
+.buttons {
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  background-color: #303134;
+  border-radius: 5px;
+  color: white;
+}
+
+button:hover {
+  border: 1px solid #eee;
+  box-shadow: 0 0 2px 1px rgba(189, 189, 189, 0.5);
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  background-color: #171717;
+  position: absolute; /* Footer'ı sayfanın altına sabitlemek için */
+  left: 0;
+  bottom: 0;
+}
+
+.panel {
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.solid {
+  border-bottom: 1px solid #dddddd68;
+}
+ul li {
+  float: left;
+  padding-left: 20px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  padding-left: 13px;
+}
+
+.carbon {
+  text-align: center;
+}
+
+.leaf {
+  width: 12px;
+}
+
+.right {
+  padding-left: 55px;
+}
